@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+             font-family: DM sans;
+        }
+        nav{
+            padding: 0 150px;
+        }
+        header{
+            
+            width: 100%;
+            height: 100%;
+          
+            font-weight: 500;
+           
+            font-size: 18px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+           align-items: center;
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+          
+        }
+       
+         .flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+}
+
+/*  */
+.main .border{
+    background-color: #FF7629;
+    width: 850px;
+    height: 500px;
+}
+
+.main .title{
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+.title h1{
+    font-size: 50px;
+    /* margin-left: 10px; */
+}
+.title P{
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+    width: 75%;
+}
+.border img{
+    width: 400px;
+    margin-top: 50px;
+position: relative;
+right: 120px;
+border-radius: 8px;
+}
+
+
+.title .a1{
+    background-color: #FF7629;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+}
+.title .a2{
+    
+    border-radius: 25px ;
+    width: 120px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: white;
+    font-size: 15px;
+}
+    h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .logo{
+        display: flex;
+       justify-content: center;
+    }
+    .logo img{
+        padding: 0 40px;
+    }
+    .menu h3{
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        top: 120px;
+      }
+
+      .box{
+        display: flex;
+       margin-top: 180px;
+       /* justify-content: center; */
+        justify-content: center; 
+     
+ 
+    }
+    .box1{
+        border: 3px solid #cecece;;
+        border-radius: 10px;
+        width: 280px;
+        height: 420px;
+        margin: 0 10px;
+   
+    }
+   
+    .box1 img{
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .box1 h3{
+        color: black;
+       
+        font-size: 25px;
+        text-align: center;
+    }
+    .box1 p{
+        color: gray;
+        font-weight: bold;
+        font-size: 20px;
+        width: 75%;
+        margin-left: 50px;
+    }
+    .box1 .text{
+        color: rgb(255, 77, 0);
+        margin-left: 70px;
+    }
+
+   .button{
+    margin-top: 50px;
+   margin-left: 40%;
+   }
+   .button .ab{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7629;
+    border: none;
+   }
+   .button .ac{
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+    background-color:transparent;
+    /* border: none; */
+    margin-left: 30px;
+   }
+  
+   .about{
+    display: flex;
+    margin-top: 150px;
+   }
+  
+  .ad{
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+    background-color:transparent;
+    /* border: none; */
+
+    
+
+  }
+.ae{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7629;
+    border: none;
+    margin-left: 20px;
+
+}
+.contact{
+    display: flex;
+
+}
+.followusimg{
+    margin: 4px;
+}
+.Browse{
+    margin-top: 50px;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pic1{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+.taste{
+    display: flex;
+  
+}
+.clients{
+    display: flex;
+    
+}
+
+.main{
+        display: flex;
+        /* padding: 20px 150px; */
+        /* justify-content: space-around; */
+        
+        
+
+
+    }
+    
+    .title img{
+        width: 280px;
+        border-radius: 50px;
+        padding: 20px;
+       
+    }
+    .title h5{
+            background-color: white;
+            width:100px;
+            font-weight: bold;
+          font-size: 18px;
+        
+            padding: 8px 20px;
+            border-radius: 20px;
+            
+            position: relative;
+            top:70px;
+            left:110px;
+           }
+
+           .title h3{
+            font-size: 25px;
+            margin-left: 80px;
+            position: relative;
+        bottom: 20px;
+
+           }
+           .title p{
+            font-size: 15px;
+            color: rgb(78, 77, 77);
+            /* width: 320px; */
+            letter-spacing: 1px;
+            /* position: relative;
+            bottom: 40px;
+            left: 20px;
+            margin-top: 50px; */
+            
+           }
+          
+
+
+           .main1{
+        display: flex;
+        justify-content: center;
+        /* padding: 20px 150px;
+        position: relative;
+        bottom: 120px; */
+    }
+    
+    .title1 img{
+        width: 280px;
+        border-radius: 50px;
+        padding: 20px;
+       
+    }
+    .title1 h5{
+            background-color: white;
+            width:100px;
+            font-weight: bold;
+          font-size: 18px;
+        
+            padding: 8px 20px;
+            border-radius: 20px;
+            
+            position: relative;
+            top:70px;
+            left:110px;
+           }
+
+           .title1 h3{
+            font-size: 25px;
+            margin-left: 20px;
+            position: relative;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+
+           }
+           .title1 p{
+            font-size: 15px;
+            color: rgb(78, 77, 77);
+            /* width: 320px; */
+            letter-spacing: 1px;
+            
+           }
+           .box5{
+        display: flex;
+    }
+    .border1{
+        background-color: #FF7629;
+        width: 100%;
+        height: 788px;
+    }
+    .content1 {
+       margin-top: 200px;
+       margin-left: 120px;
+    }
+    .content1 h2{
+        font-size: 38px;
+        color: white;
+    }
+    .content1 p{
+        color: white;
+        font-size: 16px;
+    }
+    .burger2 img{
+         width: 100%;
+         height: 100%;
+    }
+
+.content1 .a3{
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 140px;
+}
+.content1 .a4{
+    
+    border-radius: 25px ;
+    border: 1px solid white;
+    width: 140px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    background-color: #FF7629;
+    color: white;
+    font-size: 17px;
+}
+.main5{
+        display: flex;
+        
+     
+    }
+    .main5 .border4{
+        /* margin-top: 50px; */
+        background-color: #FF7629;
+        width: 800px;
+        height: 900px;
+        margin-left: 300px;
+    }
+    .content3{
+        margin-left: 100px;
+        margin-top: 300px;
+    }
+
+    .content3 h1{
+        font-size: 35px;
+    }
+    .content3 p{
+        color: gray;
+        font-size: 20px;
+    }
+    .content3 i{
+        color:#FF7629 ;
+        padding: 5px;
+        font-size: 25px;
+        align-items: center;
+        
+   
+    }
+    
+  
+    .form{
+        /* margin-top: 20px; */
+        border: 5px solid #d9d4d4;; 
+        background-color: white;
+        border-radius: 40px;
+        height: 100vh;
+         width: 550px;
+         margin-top: 90px;
+         position: relative;
+         right: 150px;
+         
+    }
+    .label1{
+    display: flex; 
+    padding: 10px 40px;
+      position: relative;
+      top: 50px;
+    }
+    .label1 label{
+        font-size: 20px;
+        font-weight: 700;
+       
+    }
+
+    .label1 input{
+        padding: 10px 10px;
+        border: 1px solid rgb(196, 196, 196);
+        border-radius: 40px;
+    }
+    .label1 p{
+        
+        background-color: #FF7629;
+        color: white;
+        font-size: 18px;
+        padding: 2px 2px;
+       
+        text-align: center;
+        border-radius: 25px;
+        width: 120px;
+        margin-top: 20px;
+    }       
+</style>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atri App</title>
+</head>
+<body>
+    <header>
+        <nav style="display: flex; align-items: center; padding-top: 20px;">
+            <div>
+                <img src="logo6.svg" alt="">
+            </div>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Menu</a></li>
+                <li> <a href="#">Pages</a></li>
+                <li> <a href="#">Cart</a></li>
+               
+                <button style="margin-left: 40px;border: 1px solid black; padding-top: 10px; padding-left: 25px; border-radius: 50px; background-color: transparent; padding-bottom: 10px; font-weight: 500; padding: 10px; margin-left: 300px;">Reservate</button>
+            <button style="margin-left: 40px;border: 1px solid #FF7629; padding-top: 10px; padding-left: 25px; border-radius: 50px; background-color: #FF7629; padding-bottom: 10px; font-weight: 500; padding: 10px; color: white;">Reservate</button>
+
+        </nav>
+          <br><br>
+         
+     
+          <div class="main" style="padding: 0 0 0 150px;">
+            <div class="title">
+               <h1>The best place to   </h1>
+               <h1 style="color: #FF7629;"> eat burgers in LA.</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</p>
+               <button style="margin-top: 30px;" class="a1">Reservate</button>
+               <button class="a2">Order online</button>
+            </div>
+            <div class="border">
+                <img src="buger.jpeg" alt="" >
+            </div>
+          </div>
+
+          <br><br>
+          <div>
+            <h4>Order from your favorite app today!</h4>
+        </div><br>
+        <div>
+            <div class="logo">
+                <div>
+                    <img src="logo7.svg" alt="">
+                </div>
+                <div>
+                    <img src="logo8.svg" alt="">
+                </div>
+                <div>
+                    <img src="logo9.svg" alt="">
+                </div>
+                <div>
+                    <img src="logo10.svg" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="menu">
+                <h3>Browse our menu</h3>
+        </div>
+    
+        <div class="box">
+            
+            <div class="box1">
+               <img src="orange.svg" alt=""><br>
+               <h3>
+                Breakfast</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam </p><br>
+                <p class="text">Explore Menu</p>
+            </div>
+    
+            <div class="box1">
+                <img src="orange2.svg" alt=""><br>
+                <h3>
+                    Main Dishes</h3><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam </p><br>
+                 <p class="text">Explore Menu</p>
+             </div>
+             <div class="box1">
+                <img src="drinks.svg" alt=""><br>
+                <h3>
+                    Drinks</h3><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam </p><br>
+                 <p class="text">Explore Menu</p>
+             </div>
+             <div class="box1">
+                <img src="dessets.svg" alt=""><br>
+                <h3>
+                    Desserts</h3><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam </p><br>
+                 <p class="text">Explore Menu</p>
+             </div>
+            
+        </div>
+        <div class="button">
+            <button class="ab">Order Online</button>
+            <button class="ac">Book a table</button>
+    
+        </div><br>
+         <div style="background-color: #FFF9F3;   ">
+        <div class="about"  style="padding: 0 150px;">
+            <div>
+                <img style="width: 460px; border-radius: 30px;" src="burger2.jpeg" alt="">
+            </div>
+            <div style="margin-left: 180px; margin-top: 100px;">
+                <h1>About us</h1><br>
+                <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras <br>  vestibulum purus aliquam.</p><br>
+                <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper odio egestas id pulvinar consectetur elit tortor non hac pellentesque lacus donec accumsan quisque ultricies adipiscing mauris tortor cras est eu accumsan mauris.</p><br>
+                <button class="ad">About us</button>
+                <button class="ae">join our team</button>
+            </div>
+            
+        </div>
+        <div style="border: 1px solid black; padding-left: 80px; margin-left: 150px;  width:35% ; position: relative; bottom: 220px; background-color: #ffffff; margin-right: 150px; padding-top: 50px; padding-bottom: 50px; border-radius: 25px; border: none;">
+            <h3> Come and visit us</h3>
+            <img style="position: relative; right: 40px; top: 50px;" src="location.svg" alt="">
+            <p style="font-size: 15px; color:  #8d8d8d;;">837 W. Marshall Lane <br> Marshalltown, IA <br> 50158, Los Angeles</p>
+            <img style="position: relative; right: 40px; top: 30px;" src="phone.svg" alt="">
+            <p style="font-size: 15px; color:  #8d8d8d;;">(414) 857 - 0107</p>
+            <img style="position: relative; right: 40px; top: 25px;" src="message.svg" alt="">
+            <p style="font-size: 15px; color:  #8d8d8d;;">losangeles@restaurantex.com</p>
+           </div>
+        </div>
+        
+        
+
+        <div class="Browse" style="text-align: center; ">
+            <h2>Browse our menu</h2><br>
+           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</p>
+        </div><br>
+    
+
+        <div class="main1" style="padding: 0 150px;">
+            <div class="title1">
+             <h5 style="width: 140px;">$ 10.99 USD</h5>
+                <img src="burger3.jpeg" alt="">
+                <h3>Classic Burger</h3>
+               <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+            </div>
+            <div class="title1">
+                <h5 style="width: 140px;">$ 6.99 USD</h5>
+                   <img src="icecream.jpeg" alt="">
+                   <h3>Choclate Milkshake</h3>
+                  <p>Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+               </div>
+               <div class="title1">
+                <h5 style="width: 140px;">$ 5.99 USD</h5>
+                   <img src="franch.jpeg" alt="">
+                   <h3>Classic Fries</h3>
+                  <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+               </div>
+    
+               <div class="title1">
+                <h5 style="width: 140px;">$ 8.99 USD</h5>
+                   <img src="ice.jpeg" alt="">
+                   <h3 style="margin-left: 60px;">Pancakes</h3>
+                  <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+               </div>
+        </div> 
+   
+    
+    
+            <div class="main1" style="padding: 0 150px;">
+                <div class="title1">
+                 <h5 style="width: 140px;">$ 3.99 USD</h5>
+                    <img src="softy.jpeg" alt="">
+                    <h3>Ice Cream</h3>
+                   <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+                </div>
+                <div class="title1">
+                    <h5 style="width: 140px;">$ 9.99 USD</h5>
+                       <img src="buger2.jpeg" alt="">
+                       <h3>Chicken Burger</h3>
+                      <p>Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+                   </div>
+                   <div class="title1">
+                    <h5 style="width: 140px;">$ 6.99 USD</h5>
+                       <img src="egg.jpeg" alt="">
+                       <h3 style="margin-left:90px;">Egg toast</h3>
+                      <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+                   </div>
+        
+                   <div class="title1">
+                    <h5 style="width: 140px;">$ 1.99 USD</h5>
+                       <img src="cold drink.jpeg" alt="">
+                       <h3 style="margin-left: 60px;">Regular Soda</h3>
+                      <p> Lorem ipsum dolor sit amet <br> dolor consectetur adipiscing elit</p>
+                   </div>
+            </div> <br><br>
+            <button class="ae" style="justify-content: center;">join our team</button>
+            <button class="ad">About us</button>
+                
+
+            <br><br>
+            <div class="box5" style="margin-top: 80px;">
+                <div class="border1">
+                    <div class="content1">
+        
+                  
+                    <h2>Taste the most <br> delicious burger in Los Angeles, CA</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit  ugue quam diam vitae velit bibendum elementum. Order  online</p><br>
+                    <button class="a3">Order online</button>
+                    <button class="a4">Reservate</button>
+                </div>
+        
+                </div>
+        
+                <div class="burger2" >
+                    <img src="burger4.jpeg" alt="" >
+                </div>
+                
+            </div>
+            <br><br>
+       
+        <div style="text-align: center; margin-top: 80px; ">
+            <h1>What our clients say</h1><br>
+            <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</p><br>
+
+        </div>
+        <div class="clients" style="margin-left: 350px; ">
+            <div>
+                <img style="width: 50px; margin-top: 100px; margin-right: 50px; border-radius: 50px; background-color: #FF7629;" src="left.svg" alt="">
+            </div>
+            <div style="border: 1px solid #d5d5d5;; width: 50%; padding-left: 50px; padding-top: 50px; border-radius: 20px;">
+                <img style="width: 30px;" src="star.svg" alt="">
+                <img style="width: 30px;" src="star.svg" alt="">
+                <img style="width: 30px;" src="star.svg" alt="">
+                <img style="width: 30px;" src="star.svg" alt="">
+                <img style="width: 30px;" src="star.svg" alt=""><br>
+                <h3>“You must try these burgers”</h3><br>
+                
+                <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipiscing elitilmim semper adipiscing massa <br> gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas</p><br>
+                <div style="display: flex;">
+                <div>
+                <img style="width: 50px;border-radius: 50px; height: 50px;" src="face1.jpg" alt="">
+            </div>
+            <div>
+                <p style="margin-left: 30px;">Matt Cannon</p>
+                <p style="margin-left: 30px; color: #595858;;">San Diego, CA
+                </p>
+            </div>
+        </div>
+            </div>
+            <div>
+                <img style="margin-top: 100px; width: 50px; margin-left: 50px; border: 1px solid black; background-color: #FF7629; border-radius: 50px;" src="right.svg" alt="">
+            </div>
+        </div> 
+        <br>
+        <button class="ae" style="margin-left: 35%;">Order online</button>
+        <button class="ad" style="margin-left: 30px;">Book a table</button>
+        
+        <br>
+        <div style="background-color: #FFF9F3; width: 100%; padding: 0 150px;" >
+        <div style="display: flex; justify-content: space-between; margin-top: 150px;">
+            <div>
+                <h2>Our articles</h2>
+            </div>
+            <div>
+                <button class="ad" style="margin-left: 30px; border: none; background-color: #ffffff;">Browse our article</button>
+            </div>
+        </div>
+        <br>
+           <div style="display: flex;">
+            <div style="background-color: #ffffff;">
+                <img style="width: 100%; height: 70%; border-top-left-radius: 35px;
+                border-top-right-radius: 35px;" src="burger5.jpeg" alt="">
+                <p style="font-size: 15px ; color: #8d8d8d;">September 1, 2022</p><br>
+                <p style="font-size: 23px; font-weight: bold;">The secret trick to prepare a perfect burger
+                </p><br>
+                <p style="font-size: 15px; color: #8d8d8d;">Lorem ipsum dolor sit amet consectetur adipiscing elitilmim semper adipisc</p>
+            </div>
+            <div style="margin-left: 70px;"> 
+                <div>
+                <img style="width: 90%; border-top-left-radius: 35px;" src="food.jpeg" alt="">
+                <p style="font-size: 15px; color: #8d8d8d;">September 1, 2022</p>
+                <p style="font-size: 15px;  margin-top: 8px;">The secret trick to prepare a <br> perfect burger</p><br>
+            </div>
+            
+            <div>
+                <img style="width: 90%; border-top-left-radius: 35px;" src="food2.jpeg" alt="">
+                <p style="font-size: 15px; color: #8d8d8d;">September 1, 2022</p>
+                <p style="font-size: 15px;  margin-top: 8px;">The secret trick to prepare a <br> perfect burger</p><br>
+            </div>
+          </div>
+    
+            <div>
+            <div>
+                <img style="width: 90%;border-top-left-radius: 35px;" src="food1.jpeg" alt="">
+                <p style="font-size: 15px;color: #8d8d8d;">September 1, 2022</p>
+                <p style="font-size: 15px;  margin-top: 8px;">The secret trick to prepare a <br> perfect burger</p><br>
+            </div>
+            <div>
+                <img style="width: 90%;border-top-left-radius: 35px;" src="food3.jpeg" alt="">
+                <p style="font-size: 15px; color: #8d8d8d;">September 1, 2022</p>
+                <p style="font-size: 15px; margin-top: 8px;">The secret trick to prepare a <br> perfect burger</p>
+            </div>
+        </div>
+            
+        </div>
+    </div><br><br>
+    <div class="main5">
+        <div class="content3">
+            <h1>Book your table now</h1>
+            <p style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur  adipiscing elit ugue quam diam vitae velit  bibendum elementum.</p><br>
+           <p class="one" style="font-size: 16px; " > <img style="position: relative; margin-right: 20px;" src="location.svg" alt="">  837 W. Marshall Lane Marshalltown, IA  50158, Los Angele </p> <br>
+            <p class="one" style="font-size: 16px;"> <img style="position: relative; margin-right: 20px;" src="phone.svg" alt="">(414) 857 - 0107</p> <br>
+            <p class="one" style="font-size: 16px;"> <img style="position: relative; margin-right: 20px;" src="message.svg" alt=""> losangeles@restaurentex.com</p><br>
+        </div>
+        <div class="border4" >
+            <div class="form">
+            <div class="label1" >
+                <div>
+                    <label for="">Name</label> <br><br>
+                    <input type="text" placeholder="John Carter">
+               </div>
+
+               <div style="margin-left: 20px;">
+                <label for="">Email Adress</label> <br><br>
+                <input type="text" placeholder="example@email.com">
+           </div>
+
+          
+   </div>
+
+   <div class="label1">
+    <div>
+        <label for="">Phone</label> <br><br>
+        <input type="text" placeholder="(123) 456-789">
+   </div>
+
+   <div style="margin-left: 20px;">
+    <label for="">Location</label><br><br>
+    <input type="text" placeholder="Ex, Los Angeles">
+</div>
+
+
+</div>
+
+<div class="label1">
+    <div>
+        <label for="">Date</label> <br><br>
+        <input type="text" placeholder="Dat and month">
+   </div>
+
+   <div style="margin-left: 20px;">
+    <label for="">Schedule</label><br><br>
+    <input type="text" placeholder="Ex, 2:00PM">
+</div>
+
+
+</div>
+
+<div class="label1">
+    <div>
+        <label for="">Add a note</label> <br><br>
+        <input style="width: 400px; height: 150px; border-radius: 15px; text-align: center;" type="text area" placeholder="Do You have any note for us ?">
+
+        <p>Book a table</p>
+   </div>
+
+  
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+  <br><br>
+  <div style="display: flex; justify-content: space-between; padding: 0 150px;">
+    <div>
+        <h1>Follow us on Instagram</h1>
+    </div>
+    <div style="background-color: #FF7629; color: white; border-radius: 50px; text-align: center; margin-left: 30px; padding-top: 10px;">
+        <button class="ae">Follow us</button>
+    </div>
+    
+  </div>
+  <br>
+  <div style="display: flex; justify-content: center; column-gap: 20px; row-gap: 13px;">
+    <div>
+        <img  style="width: 300px;     height: 300px;
+        border-radius: 35px;" src="food4.jpeg" alt="">
+    </div>
+    <div>
+        <img style="width: 300px ;    height: 300px;
+        border-radius: 35px;  margin-left: 30px;" src="food5.jpeg" alt="">
+    </div>
+    
+         
+<div style="margin-left: 20px;"> 
+    <div>
+        <img class="followusimg" style="width: 145px;
+        height: 145px;
+        border-radius: 25px; " src="food6.jpeg" alt="">
+    
+</div>
+
+<div>
+    <img class="followusimg" style="width: 145px;
+    height: 145px;
+    border-radius: 25px;" src="food7.jpeg" alt="">
+</div>
+</div>
+
+<div>
+<div>
+    <img class="followusimg" style="width: 145px;
+    height: 145px;
+    border-radius: 25px;"  src="food8.jpeg" alt="">
+  
+</div>
+<div>
+    <img class="followusimg" style="width: 145px;
+    height: 145px;
+    border-radius: 25px;" src="food9.jpeg" alt="">
+  
+</div>
+</div>
+</header>
+<br>
+<footer>
+<div style="display: flex; justify-content: space-evenly; margin-top: 10%;">
+    <div>
+   <img src="logo6.svg" alt=""><br><br>
+   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue <br> quam diam vitae velit bibendum elementum.</p><br>
+   <img style="width: 30px;" src="star.svg" alt="">
+   <img style="width: 30px;" src="star.svg" alt="">
+   <img style="width: 30px;" src="star.svg" alt="">
+   <img style="width: 30px;" src="star.svg" alt="">
+   <img style="width: 30px;" src="star.svg" alt=""><br>
+    </div>
+    <div>
+        <h2>Pages</h2><br>
+        <p style="color: #7f7c7c; font-size: 16px;">Home</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Contact</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Contact</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Blog</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Menu</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">About</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Delivery</p>
+       
+    </div>
+    <div>
+        <h2>Utility</h2><br>
+        <p style="color: #7f7c7c; font-size: 16px;">Home</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">About</p>
+        <p style="color: #7f7c7c; font-size: 16px;padding-top: 8px;">Menu</p>
+        <p style="color: #7f7c7c; font-size: 16px;padding-top: 8px;">Bloge</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Bloge post</p>
+        <p style="color: #7f7c7c; font-size: 16px; padding-top: 8px;">Contact</p>
+        <p style="color: #7f7c7c; font-size: 16px;padding-top: 8px;">Delivery</p>
+        
+    </div>
+    <div>
+        <h2>Follow us on Instagram</h2><br>
+        <div style=" display: flex; column-gap: 20px;"> 
+            <div>
+                <img class="followusimg" style="width: 145px;
+                height: 145px;
+                border-radius: 25px; " src="food6.jpeg" alt="">
+            
+        </div>
+        
+        <div>
+            <img class="followusimg" style="width: 145px;
+            height: 145px;
+            border-radius: 25px;" src="food7.jpeg" alt="">
+        </div>
+        </div>
+        
+        <div style="display: flex; column-gap: 20px;">
+        <div>
+            <img class="followusimg" style="width: 145px;
+            height: 145px;
+            border-radius: 25px;"  src="food8.jpeg" alt="">
+          
+        </div>
+        <div>
+            <img class="followusimg" style="width: 145px;
+            height: 145px;
+            border-radius: 25px;" src="food9.jpeg" alt="">
+          
+        </div>
+        
+    </div>
+</div>
+</footer>
+    
+</body>
+</html>
